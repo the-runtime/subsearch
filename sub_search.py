@@ -46,5 +46,5 @@ def main(srt_name):
     final_dict["data"] = data_lis
 
     inp_srt.close()
-    os.remove(inp_srt)
+    os.remove(srt_name)
     return final_dict
